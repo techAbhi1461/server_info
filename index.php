@@ -10,5 +10,10 @@
         'Absolute Path'=>$_SERVER['SCRIPT_FILENAME']
     ];
 
-    print_r($server);
+    $client = [
+        'Client System info' => $_SERVER['HTTP_USER_AGENT']
+        
+    ];
+
+    print_r($client);
 ?>
